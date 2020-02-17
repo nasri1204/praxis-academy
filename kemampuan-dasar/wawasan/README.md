@@ -65,6 +65,24 @@ Pengertian dari Agile Alliance's Manifesto[4] dijelaskan di bawah ini:
    * Perangkat lunak yang berfungsi lebih penting daripada dokumentasi yang lengkap, saat melakukan proses demonstrasi kepada klien, perangkat lunak yang berfungsi dengan baik akan lebih berguna daripada dokumentasi yang lengkap.
    * Kolaborasi dengan klien lebih penting daripada negosiasi kontrak, salah satu ciri dari agile adalah klien menjadi bagian dari tim pengembangan perangkat lunak. Kolaborasi yang baik dengan klien saat proses pembuatan perangkat lunak sangatlah penting ketika menggunakan agile. Karena fungsi-fungsi dari perangkat lunak yang dikembangkan harus terus menerus dibicarakan dan diimprovisasi disesuaikan dengan keinginan klien.
    * Respon terhadap perubahan lebih penting daripada mengikuti rencana, agile development methods berfokus terhadap kecepatan respon tim ketika klien menginginkan perubahan saat proses pembuatan perangkat lunak.
+   
+## Model proses agile
+   * Acceptance Test Driven Development (ATDD)
+   * [Agile Modeling](https://id.wikipedia.org/wiki/Agile_Modelling_(AM))
+   * [Adaptive Software Development (ASD)](https://id.wikipedia.org/wiki/Adaptive_software_development)
+   
+   Adaptive software development (ASD) diajukan oleh Jim Highsmith sebagai teknik untuk membangun software dan sistem yang kompleks. Filosofi yang mendasari adaptive software development adalah kolaborasi manusia dan tim yang mengatur diri sendiri. Sistem kerja adaptive software development: collaboration dan learning.
+   1. Collaboration: orang-orang yang bermotivasi tinggi bekerja sama, saling melengkapi, rela membantu, kerja keras, terampil di bidangnya, dan komunikasikan masalah untuk menyelesikan masalah secara efektif.
+   2. Learning: tim developer sering merasa sudah tahu semua hal tentang proyek, padahal tidak selamanya begitu. Karena itu proses ini membuat mereka belajar lebih tentang proyek melalui tiga cara:
+      1. Fokus grup, klien dan pengguna memberi masukan terhadap perangkat lunak.
+      2. Formal Technique Reviews, tim ASD lengkap melakukan review.
+      3. Postmortems, tim ASD melakukan instrospeksi pada kinerja dan proses
+   
+   
+   
+   
+   
+   
 
 
 ## 5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile. 
