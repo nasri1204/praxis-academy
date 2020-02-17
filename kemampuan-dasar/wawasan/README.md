@@ -31,6 +31,21 @@ Di bawah ini ada beberapa contoh macam perangkat lunak, yaitu:
  
  ### Informatika
  Informatika adalah cabang dari rekayasa informasi. Ini melibatkan praktik pengolahan informasi dan rekayasa sistem informasi, dan sebagai bidang akademik itu adalah bentuk ilmu informasi yang diterapkan. Dengan demikian, bidang informatika sangat luas dan mencakup banyak subspesialisasi, termasuk disiplin ilmu komputer, sistem informasi, teknologi informasi, dan statistik. Sejak munculnya komputer, individu dan organisasi semakin memproses informasi secara digital. Ini telah menyebabkan studi informatika dengan aspek komputasi, matematika, biologis, kognitif dan sosial, termasuk studi dampak sosial dari teknologi informasi.
+ 
+### Rekayasa perangkat lunak
+Rekayasa Perangkat Lunak (RPL, atau dalam bahasa Inggris: Software Engineering atau SE) adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak dan manajemen kualitas.
+IEEE Computer Society mendefinisikan rekayasa perangkat lunak sebagai penerapan suatu pendekatan yang sistematis, disiplin dan terkuantifikasi atas pengembangan, penggunaan dan pemeliharaan perangkat lunak, serta studi atas pendekatan-pendekatan ini, yaitu penerapan pendekatan engineering atas perangkat lunak. Rekayasa perangkat lunak adalah pengubahan perangkat lunak itu sendiri guna mengembangkan, memelihara, dan membangun kembali dengan menggunakan prinsip rekayasa untuk menghasilkan perangkat lunak yang dapat bekerja lebih efisien dan efektif untuk pengguna.
+
+Kriteria yang dapat digunakan sebagai acuan dalam merekayasa perangkat lunak:
+   1. Dapat terus dirawat dan dipelihara (Maintainability)
+   2. Dapat mengikuti perkembangan teknologi (Dependability)
+   3. Dapat mengikuti keinginan pengguna (Robust)
+   4. Efektif dan efisien dalam menggunakan energi dan penggunaannya
+   5. Dapat memenuhi kebutuhan yang diinginkan (Usability)
+
+
+
+
 
 
 ## 3. Halaman [Wikipedia - Software Development](https://en.wikipedia.org/wiki/Software_development) memberikan penjelasan umum tentang aktivitas, model, serta hal-hal lain yang terkait dengan *software development*. Penerapan dari *engineering* ke dalam aktivitas *software development* ini disebut dengan [Software Engineering](https://en.wikipedia.org/wiki/Software_engineering)
