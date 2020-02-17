@@ -101,11 +101,16 @@ Sedangkan kekurangan dari agile antara lain :
    * Tidak cocok dalam skala tim yang besar (>20 orang).
    * Perkiraan waktu release dan harga perangkat lunak sulit ditentukan.
    
-   
-   
-   
-   
 
+## 5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile.
+### Scrum
+Scrum adalah metode pengembangan perangkat lunak agile yang dikembangkan oleh Jeff Sutherland dan tim pengembangannya di awal 1990-an. Selanjutnya, pengembangan lebih lanjut tentang metode Scrum telah dilakukan oleh Schwaber dan Beedle. Prinsip scrum konsisten dengan manifesto agile dan digunakan untuk memandu kegiatan pengembangan dalam suatu proses yang menggabungkan kegiatan kerangka kerja (framework activity) berikut: kebutuhan (requirements), analisis (analysis), desain (design), evolusi (evolution), dan pengiriman (delivery). Dalam setiap kegiatan kerangka kerja, work task terjadi dalam pola proses yang disebut sprint. Pekerjaan yang dilakukan dalam sprint (jumlah sprint yang diperlukan untuk setiap kegiatan kerangka kerja akan bervariasi tergantung pada kompleksitas dan ukuran produk) disesuaikan dengan masalah yang dihadapi dan didefinisikan dan sering dimodifikasi secara real time oleh tim Scrum.
 
-## 5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile. 
+### Pola Proses Scrum
+Scrum menekankan penggunaan serangkaian pola proses perangkat lunak yang telah terbukti efektif untuk proyek dengan jadwal yang ketat, perubahan kebutuhan, dan kekritisan bisnis. Masing-masing pola proses ini mendefinisikan serangkaian tindakan pengembangan (development activity) :
+   * Backlog: daftar kebutuhan atau fitur proyek yang diprioritaskan yang memberikan nilai bisnis bagi pelanggan. Item dapat ditambahkan ke backlog kapan saja (ini adalah bagaimana perubahan diperkenalkan). Manajer produk menilai backlog dan memperbarui prioritas sesuai kebutuhan.
+   * Sprint: terdiri dari unit kerja yang diperlukan untuk mencapai kebutuhan yang ditentukan dalam jaminan yang harus sesuai dengan time box yang telah ditentukan (biasanya 30 hari). Perubahan (mis. backlog work items) tidak diperkenalkan selama sprint. Oleh karena itu, sprint memungkinkan anggota tim untuk bekerja dalam lingkungan jangka pendek namun stabil.
+   * Scrum Meeting: pertemuan singkat (biasanya 15 menit) yang diadakan setiap hari oleh tim Scrum. Tiga pertanyaan kunci diajukan dan dijawab oleh semua anggota tim, yaitu (1) apa yang Anda lakukan sejak pertemuan tim terakhir? (2) Apa kendala yang Anda hadapi? (3) Apa yang Anda rencanakan untuk dicapai dengan pertemuan tim berikutnya?.
+   * Demos: menyampaikan software increment ke pelanggan sehingga fungsionalitas yang telah diterapkan dapat diperagakan dan dievaluasi oleh pelanggan. Penting untuk dicatat bahwa demo mungkin tidak mengandung semua fungsionalitas yang direncanakan, melainkan fungsi-fungsi yang dapat disampaikan dalam time box yang ditetapkan.
+
 ## 6. Halaman [Wikipedia - XP](https://en.wikipedia.org/wiki/Extreme_programming) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile.
