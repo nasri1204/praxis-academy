@@ -19,9 +19,9 @@ Perangkat lunak atau peranti lunak (bahasa Inggris: software) adalah istilah khu
 
 Di bawah ini ada beberapa contoh macam perangkat lunak, yaitu:
   * [Perangkat lunak aplikasi](https://id.wikipedia.org/wiki/Aplikasi) (application software) seperti [pengolah kata](https://id.wikipedia.org/wiki/Pengolah_kata), [lembar tabel hitung](https://id.wikipedia.org/wiki/Lembatang_sebar), [pemutar media](https://id.wikipedia.org/wiki/Pemutar_media), dan [paket aplikasi](https://id.wikipedia.org/wiki/Paket_aplikasi_perkantoran)   perkantoran seperti [OpenOffice.org](https://id.wikipedia.org/wiki/Apache_OpenOffice).
-  * Sistem operasi (operating system) misalnya Linux dan Windows.
-  * Perkakas pengembangan perangkat lunak (software development tool) seperti Kompilator untuk bahasa pemrograman tingkat tinggi seperti Pascal dan bahasa pemrograman tingkat rendah yaitu bahasa rakitan.
-  * Pengendali perangkat keras (device driver) yaitu penghubung antara perangkat perangkat keras pembantu, dan komputer adalah software yang banyak dipakai di swalayan, dan juga sekolah, yaitu penggunaan barcode scanner pada aplikasi database lainnya.
+  * [Sistem operasi](https://id.wikipedia.org/wiki/Sistem_operasi) (operating system) misalnya Linux dan [Windows](https://id.wikipedia.org/wiki/Microsoft_Windows).
+  * Perkakas pengembangan perangkat lunak (software development tool) seperti [Kompilator](https://id.wikipedia.org/wiki/Kompilator) untuk bahasa pemrograman tingkat tinggi seperti [Pascal](https://id.wikipedia.org/wiki/Pascal_(bahasa_pemrograman)) dan bahasa pemrograman tingkat rendah yaitu bahasa [rakitan](https://id.wikipedia.org/wiki/Bahasa_rakitan).
+  * [Pengendali perangkat keras](https://id.wikipedia.org/wiki/Pemacu_peranti) (device driver) yaitu penghubung antara perangkat perangkat keras pembantu, dan komputer adalah software yang banyak dipakai di swalayan, dan juga sekolah, yaitu penggunaan barcode scanner pada aplikasi database lainnya.
 
 
 
