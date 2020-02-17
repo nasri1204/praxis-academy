@@ -1,0 +1,375 @@
+1. C:\Users\nasri>dir
+ Volume in drive C has no label.
+ Volume Serial Number is B2F2-17E6
+
+ Directory of C:\Users\nasri
+
+01/23/2020  01:39 AM    <DIR>          .
+01/23/2020  01:39 AM    <DIR>          ..
+01/23/2020  12:46 AM    <DIR>          .android
+11/11/2019  12:53 PM    <DIR>          .AndroidStudio3.5
+11/18/2019  01:43 PM               146 .angular-config.json
+02/16/2020  11:21 PM             7,897 .bash_history
+10/10/2019  03:16 PM    <DIR>          .config
+10/07/2019  03:01 PM    <DIR>          .configprops
+12/09/2019  10:12 AM    <DIR>          .cordova
+10/07/2019  03:01 PM    <DIR
+
+
+
+2. C:\Users\nasri>D:
+
+D:\>
+
+
+
+3. C:\Users\nasri>cd Music
+
+C:\Users\nasri\Music>
+
+
+
+4. C:\Users\nasri>ipconfig /all
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : DESKTOP-RMPGORB
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe FE Family Controller
+   Physical Address. . . . . . . . . : 18-31-BF-21-AA-44
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Local Area Connection* 1:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 1A-22-EF-1B-5F-BE
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter Wi-Fi:
+
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Qualcomm Atheros AR956x Wireless Network Adapter
+   Physical Address. . . . . . . . . : 98-22-EF-1B-5F-BE
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
+   Link-local IPv6 Address . . . . . : fe80::1c7f:4726:33f7:94f6%10(Preferred)
+   IPv4 Address. . . . . . . . . . . : 192.168.100.113(Preferred)
+   Subnet Mask . . . . . . . . . . . : 255.255.255.0
+   Lease Obtained. . . . . . . . . . : Thursday, February 13, 2020 12:27:31 PM
+   Lease Expires . . . . . . . . . . : Thursday, February 20, 2020 11:51:08 AM
+   Default Gateway . . . . . . . . . : fe80::1%10
+                                       192.168.100.1
+   DHCP Server . . . . . . . . . . . : 192.168.100.1
+   DHCPv6 IAID . . . . . . . . . . . : 110633711
+   DHCPv6 Client DUID. . . . . . . . : 00-01-00-01-25-23-42-34-18-31-BF-21-AA-44
+   DNS Servers . . . . . . . . . . . : 118.98.44.100
+                                       118.98.44.10
+   NetBIOS over Tcpip. . . . . . . . : Enabled
+
+C:\Users\nasri>
+
+
+
+5. C:\Users\nasri>echo file > file.txt
+
+C:\Users\nasri>
+
+
+
+6. C:\Users\nasri>type file.txt
+file
+
+C:\Users\nasri>
+
+
+
+7. C:\Users\nasri>mkdir name
+
+C:\Users\nasri>
+
+
+
+8. C:\Users\nasri>ping 8.8.8.8 -t
+
+Pinging 8.8.8.8 with 32 bytes of data:
+Reply from 8.8.8.8: bytes=32 time=26ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=24ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=25ms TTL=56
+Reply from 8.8.8.8: bytes=32 time=24ms TTL=56
+
+
+
+9. C:\Users\nasri>hostname
+DESKTOP-RMPGORB
+
+C:\Users\nasri>
+
+
+
+10. C:\Users\nasri>getmac
+
+Physical Address    Transport Name
+=================== ==========================================================
+98-22-EF-1B-5F-BE   \Device\Tcpip_{6ACA4527-A1A4-41DB-956D-595D3FA1CA67}
+18-31-BF-21-AA-44   Media disconnected
+
+C:\Users\nasri>
+
+
+
+11. C:\Users\nasri>arp
+
+Displays and modifies the IP-to-Physical address translation tables used by
+address resolution protocol (ARP).
+
+ARP -s inet_addr eth_addr [if_addr]
+ARP -d inet_addr [if_addr]
+ARP -a [inet_addr] [-N if_addr] [-v]
+
+  -a            Displays current ARP entries by interrogating the current
+                protocol data.  If inet_addr is specified, the IP and Physical
+                addresses for only the specified computer are displayed.  If
+                more than one network interface uses ARP, entries for each ARP
+                table are displayed.
+  -g            Same as -a.
+  -v            Displays current ARP entries in verbose mode.  All invalid
+                entries and entries on the loop-back interface will be shown.
+  inet_addr     Specifies an internet address.
+  -N if_addr    Displays the ARP entries for the network interface specified
+                by if_addr.
+  -d            Deletes the host specified by inet_addr. inet_addr may be
+                wildcarded with * to delete all hosts.
+  -s            Adds the host and associates the Internet address inet_addr
+                with the Physical address eth_addr.  The Physical address is
+                given as 6 hexadecimal bytes separated by hyphens. The entry
+                is permanent.
+  eth_addr      Specifies a physical address.
+  if_addr       If present, this specifies the Internet address of the
+                interface whose address translation table should be modified.
+                If not present, the first applicable interface will be used.
+Example:
+  > arp -s 157.55.85.212   00-aa-00-62-c6-09  .... Adds a static entry.
+  > arp -a                                    .... Displays the arp table.
+
+C:\Users\nasri>
+
+
+
+12. C:\Users\nasri>nslookup
+Default Server:  100.subnet118-98-44.astinet.telkom.net.id
+Address:  118.98.44.100
+
+
+
+13. C:\Users\nasri>nbtstat
+
+Displays protocol statistics and current TCP/IP connections using NBT
+(NetBIOS over TCP/IP).
+
+NBTSTAT [ [-a RemoteName] [-A IP address] [-c] [-n]
+        [-r] [-R] [-RR] [-s] [-S] [interval] ]
+
+  -a   (adapter status) Lists the remote machine's name table given its name
+  -A   (Adapter status) Lists the remote machine's name table given its
+                        IP address.
+  -c   (cache)          Lists NBT's cache of remote [machine] names and their IP addresses
+  -n   (names)          Lists local NetBIOS names.
+  -r   (resolved)       Lists names resolved by broadcast and via WINS
+  -R   (Reload)         Purges and reloads the remote cache name table
+  -S   (Sessions)       Lists sessions table with the destination IP addresses
+  -s   (sessions)       Lists sessions table converting destination IP
+                        addresses to computer NETBIOS names.
+  -RR  (ReleaseRefresh) Sends Name Release packets to WINS and then, starts Refresh
+
+  RemoteName   Remote host machine name.
+  IP address   Dotted decimal representation of the IP address.
+  interval     Redisplays selected statistics, pausing interval seconds
+               between each display. Press Ctrl+C to stop redisplaying
+               statistics.
+
+
+C:\Users\nasri>
+
+
+
+14. C:\Users\nasri>netstat
+
+Active Connections
+
+  Proto  Local Address          Foreign Address        State
+  TCP    127.0.0.1:1035         DESKTOP-RMPGORB:1036   ESTABLISHED
+  TCP    127.0.0.1:1036         DESKTOP-RMPGORB:1035   ESTABLISHED
+  TCP    127.0.0.1:5939         DESKTOP-RMPGORB:11763  ESTABLISHED
+  TCP    127.0.0.1:11763        DESKTOP-RMPGORB:5939   ESTABLISHED
+  TCP    127.0.0.1:11765        DESKTOP-RMPGORB:11766  ESTABLISHED
+  TCP    127.0.0.1:11766        DESKTOP-RMPGORB:11765  ESTABLISHED
+  TCP    127.0.0.1:11782        DESKTOP-RMPGORB:11860  ESTABLISHED
+  TCP    127.0.0.1:11860        DESKTOP-RMPGORB:11782  ESTABLISHED
+  TCP    192.168.100.113:11732  HK-HKG-ANX-R004:5938   ESTABLISHED
+  TCP    192.168.100.113:11738  152:https              ESTABLISHED
+  TCP    192.168.100.113:11878  172.217.194.188:5228   ESTABLISHED
+  TCP    192.168.100.113:12040  203:https              ESTABLISHED
+  TCP    192.168.100.113:12273  lb-192-30-253-125-iad:https  ESTABLISHED
+  TCP    192.168.100.113:12514  lb-140-82-113-25-iad:https  ESTABLISHED
+  TCP    192.168.100.113:12529  139:https              ESTABLISHED
+  TCP    192.168.100.113:12530  4:https                ESTABLISHED
+  TCP    192.168.100.113:12531  server-13-35-20-109:https  ESTABLISHED
+  TCP    192.168.100.113:12532  196:https              ESTABLISHED
+  TCP    192.168.100.113:12533  225:https              ESTABLISHED
+  TCP    192.168.100.113:12535  94:https               ESTABLISHED
+  TCP    192.168.100.113:12537  sc-in-f100:https       ESTABLISHED
+
+C:\Users\nasri>
+
+
+
+15. C:\Users\nasri>help
+For more information on a specific command, type HELP command-name
+ASSOC          Displays or modifies file extension associations.
+ATTRIB         Displays or changes file attributes.
+BREAK          Sets or clears extended CTRL+C checking.
+BCDEDIT        Sets properties in boot database to control boot loading.
+CACLS          Displays or modifies access control lists (ACLs) of files.
+CALL           Calls one batch program from another.
+CD             Displays the name of or changes the current directory.
+CHCP           Displays or sets the active code page number.
+CHDIR          Displays the name of or changes the current directory.
+CHKDSK         Checks a disk and displays a status report.
+CHKNTFS        Displays or modifies the checking of disk at boot time.
+CLS            Clears the screen.
+CMD            Starts a new instance of the Windows command interpreter.
+COLOR          Sets the default console foreground and background colors.
+COMP           Compares the contents of two files or sets of files.
+COMPACT        Displays or alters the compression of files on NTFS partitions.
+CONVERT        Converts FAT volumes to NTFS.  You cannot convert the
+               current drive.
+COPY           Copies one or more files to another location.
+DATE           Displays or sets the date.
+DEL            Deletes one or more files.
+DIR            Displays a list of files and subdirectories in a directory.
+DISKPART       Displays or configures Disk Partition properties.
+DOSKEY         Edits command lines, recalls Windows commands, and
+               creates macros.
+DRIVERQUERY    Displays current device driver status and properties.
+ECHO           Displays messages, or turns command echoing on or off.
+ENDLOCAL       Ends localization of environment changes in a batch file.
+ERASE          Deletes one or more files.
+EXIT           Quits the CMD.EXE program (command interpreter).
+FC             Compares two files or sets of files, and displays the
+               differences between them.
+FIND           Searches for a text string in a file or files.
+FINDSTR        Searches for strings in files.
+FOR            Runs a specified command for each file in a set of files.
+FORMAT         Formats a disk for use with Windows.
+FSUTIL         Displays or configures the file system properties.
+FTYPE          Displays or modifies file types used in file extension
+               associations.
+GOTO           Directs the Windows command interpreter to a labeled line in
+               a batch program.
+GPRESULT       Displays Group Policy information for machine or user.
+GRAFTABL       Enables Windows to display an extended character set in
+               graphics mode.
+HELP           Provides Help information for Windows commands.
+ICACLS         Display, modify, backup, or restore ACLs for files and
+               directories.
+IF             Performs conditional processing in batch programs.
+LABEL          Creates, changes, or deletes the volume label of a disk.
+MD             Creates a directory.
+MKDIR          Creates a directory.
+MKLINK         Creates Symbolic Links and Hard Links
+MODE           Configures a system device.
+MORE           Displays output one screen at a time.
+MOVE           Moves one or more files from one directory to another
+               directory.
+OPENFILES      Displays files opened by remote users for a file share.
+PATH           Displays or sets a search path for executable files.
+PAUSE          Suspends processing of a batch file and displays a message.
+POPD           Restores the previous value of the current directory saved by
+               PUSHD.
+PRINT          Prints a text file.
+PROMPT         Changes the Windows command prompt.
+PUSHD          Saves the current directory then changes it.
+RD             Removes a directory.
+RECOVER        Recovers readable information from a bad or defective disk.
+REM            Records comments (remarks) in batch files or CONFIG.SYS.
+REN            Renames a file or files.
+RENAME         Renames a file or files.
+REPLACE        Replaces files.
+RMDIR          Removes a directory.
+ROBOCOPY       Advanced utility to copy files and directory trees
+SET            Displays, sets, or removes Windows environment variables.
+SETLOCAL       Begins localization of environment changes in a batch file.
+SC             Displays or configures services (background processes).
+SCHTASKS       Schedules commands and programs to run on a computer.
+SHIFT          Shifts the position of replaceable parameters in batch files.
+SHUTDOWN       Allows proper local or remote shutdown of machine.
+SORT           Sorts input.
+START          Starts a separate window to run a specified program or command.
+SUBST          Associates a path with a drive letter.
+SYSTEMINFO     Displays machine specific properties and configuration.
+TASKLIST       Displays all currently running tasks including services.
+TASKKILL       Kill or stop a running process or application.
+TIME           Displays or sets the system time.
+TITLE          Sets the window title for a CMD.EXE session.
+TREE           Graphically displays the directory structure of a drive or
+               path.
+TYPE           Displays the contents of a text file.
+VER            Displays the Windows version.
+VERIFY         Tells Windows whether to verify that your files are written
+               correctly to a disk.
+VOL            Displays a disk volume label and serial number.
+XCOPY          Copies files and directory trees.
+WMIC           Displays WMI information inside interactive command shell.
+
+For more information on tools see the command-line reference in the online help.
+
+C:\Users\nasri>
+
+
+
+16. C:\Users\nasri>color 0a
+
+C:\Users\nasri>
+
+
+
+17. C:\Users\nasri>title PING Google
+
+C:\Users\nasri>
+
+
+
+18. C:\Users\nasri\Documents\Phyton>tree
+Folder PATH listing
+Volume serial number is B2F2-17E6
+C:.
+├───.idea
+│   └───inspectionProfiles
+└───__pycache__
+
+C:\Users\nasri\Documents\Phyton>
+
+
+
+19. C:\Users\nasri\Documents>assoc .docx
+.docx=Word.Document.12
+
+C:\Users\nasri\Documents>
+
+
+
+20. C:\Users\nasri\Documents>attrib +r Doc1.docx
+
+C:\Users\nasri\Documents>
