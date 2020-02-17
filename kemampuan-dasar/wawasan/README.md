@@ -49,7 +49,7 @@ Kriteria yang dapat digunakan sebagai acuan dalam merekayasa perangkat lunak:
    5. Dapat memenuhi kebutuhan yang diinginkan (Usability)
    
 
-4. Halaman [Wikipedia - Agile Software Development](https://en.wikipedia.org/wiki/Agile_software_development) membahas hal yang lebih spesifik dari *software development*, yaitu salah satu model / metodologi yang digunakan untuk membangun software.
+## 4. Halaman [Wikipedia - Agile Software Development](https://en.wikipedia.org/wiki/Agile_software_development) membahas hal yang lebih spesifik dari *software development*, yaitu salah satu model / metodologi yang digunakan untuk membangun software.
 ### Agile Development Methods
 Agile Development Methods adalah sekelompok metodologi pengembangan perangkat lunak yang didasarkan pada prinsip-prinsip yang sama atau pengembangan sistem jangka pendek yang memerlukan adaptasi cepat dari pengembang terhadap perubahan dalam bentuk apapun. Agile development methods merupakan salah satu dari [Metodologi pengembangan perangkat lunak](https://id.wikipedia.org/wiki/Metodologi_pengembangan_perangkat_lunak) yang digunakan dalam pengembangan perangkat lunak. Agile memiliki pengertian bersifat cepat, ringan, bebas bergerak, dan waspada. Sehingga saat membuat perangkat lunak dengan menggunakan agile development methods diperlukan inovasi dan responsibiliti yang baik antara tim pengembang dan klien agar kualitas dari perangkat lunak yang dihasilkan bagus dan kelincahan dari tim seimbang.
 
