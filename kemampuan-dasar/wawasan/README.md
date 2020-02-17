@@ -77,7 +77,29 @@ Pengertian dari Agile Alliance's Manifesto[4] dijelaskan di bawah ini:
       1. Fokus grup, klien dan pengguna memberi masukan terhadap perangkat lunak.
       2. Formal Technique Reviews, tim ASD lengkap melakukan review.
       3. Postmortems, tim ASD melakukan instrospeksi pada kinerja dan proses
+
+### Tujuan agile
+   1. High-value & working App system, diharapkan dengan memakai agile development methods dapat dihasilkan perangkat lunak yang mempunyai nilai jual yang tinggi, biaya pembuatan bisa di tekan dan perangkat lunak bisa berjalan dengan baik.
+   2. Iterative, incremental, evolutionary, agile adalah metode pengembangan perangkat lunak yang iteratif, selalu mengalami perubahan, dan evolusioner. Tim harus bekerja dalam waktu yang singkat(biasanya 1-3 minggu) dan juga selalu menambah fungsionalitas dari perangkat lunak sesuai dengan kebutuhan klien. Agile dapat dianalogikan ketika seseorang ingin pergi ke suatu kota dan dia tidak tahu jalannya. Lalu bagaimana dia bisa sampai tujuan? Dengan sering bertanya kepada orang yang dia temui dijalan hingga dia sampai di tempat tujuan.
+   3. Cost control & value-driven development, salah satu tujuan dari agile yaitu pengembangan perangkat lunak disesuaikan dengan kebutuhan pengguna, tim bisa dengan cepat merespon kebutuhan yang diinginkan pengguna sehingga waktu dan biaya pembuatan perangkat lunak bisa dikontrol.
+   4. High-quality production, walaupun biaya pembuatan perangkat lunak bisa ditekan dan proses pembuatan bisa dipercepat, tetapi kualitas dari perangkat lunak yang dibuat harus tetap dijaga. Dengan melakukan tes setiap fungsionalitas perangkat lunak setelah selesei dibuat berarti agile juga mengakomodir kebutuhan ini.
+   5. Flexible & risk management, jika kita menggunakan metode pembuatan yang biasanya dipakai, jika ingin mengubah fungsionalitas dari wireframe yang telah dibuat di butuhkan proses yang rumit. Mulai dari pertemuan dengan sistem analis untuk mengubah sistem perangkat lunak, perubahan rencana rilis produk hingga perubahan biaya produksi. Pertemuan dengan klien untuk melakukan tes perangkat lunak juga sering dilakukan sehingga fungsionalitas perangkat lunak mudah diubah dan akhirnya kegagalan perangkat lunakpun bisa diminimalisir.
+   6. Collaboration, dengan menggunakan agile, tim pengembang diharuskan sering bertemu untuk membahas perkembangan proyek dan feedback dari klien yang nantinya akan ditambahkan dalam perangkat lunak, sehingga tim bisa berkolaborasi dengan maksimal.
+   7. Self-organizing, self-managing teams, rekrut orang terbaik, beri dan dukung kebutuhan mereka lalu biarkan mereka bekerja. Itulah perbedaan agile dan SDM lainnya. Dengan agile, developer dapat memanajemen dirinya sendiri, sedangkan manajer tim hanya bertugas mengkolaborasikan developer perangkat lunak dengan klien. Sehingga terciptalah tim yang solid. 
+
+### Kelebihan dan Kekurangan
+#### Kelebihan
+Beberapa kelebihan dari agile diantaranya :
+   * 82% Menambah produktivitas tim.
+   * 77% Menambah kualitas perangkat lunak.
+   * 78% Menambah kepuasan klien.
+   * 37% Menghemat biaya.
    
+#### Kekurangan
+Sedangkan kekurangan dari agile antara lain :
+   * Agile tidak akan berjalan dengan baik jika komitmen tim kurang.
+   * Tidak cocok dalam skala tim yang besar (>20 orang).
+   * Perkiraan waktu release dan harga perangkat lunak sulit ditentukan.
    
    
    
