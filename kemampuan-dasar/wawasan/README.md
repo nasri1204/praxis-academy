@@ -59,6 +59,13 @@ Agile development methods terdefinisi dalam empat nilai, biasa di sebut Agile Al
    3. Kolaborasi dengan klien lebih penting daripada negosiasi kontrak.
    4. Respon terhadap perubahan lebih penting daripada mengikuti rencana.
 
+Pengertian dari Agile Alliance's Manifesto[4] dijelaskan di bawah ini:
+
+   * Interaksi dan personel lebih penting daripada proses dan alat, di dalam agile interaksi antar anggota tim sangatlah penting, karena tanpa adanya interaksi yang baik maka proses pembuatan perangkat lunak tidak akan berjalan sesuai rencana.
+   * Perangkat lunak yang berfungsi lebih penting daripada dokumentasi yang lengkap, saat melakukan proses demonstrasi kepada klien, perangkat lunak yang berfungsi dengan baik akan lebih berguna daripada dokumentasi yang lengkap.
+   * Kolaborasi dengan klien lebih penting daripada negosiasi kontrak, salah satu ciri dari agile adalah klien menjadi bagian dari tim pengembangan perangkat lunak. Kolaborasi yang baik dengan klien saat proses pembuatan perangkat lunak sangatlah penting ketika menggunakan agile. Karena fungsi-fungsi dari perangkat lunak yang dikembangkan harus terus menerus dibicarakan dan diimprovisasi disesuaikan dengan keinginan klien.
+   * Respon terhadap perubahan lebih penting daripada mengikuti rencana, agile development methods berfokus terhadap kecepatan respon tim ketika klien menginginkan perubahan saat proses pembuatan perangkat lunak.
+
 
 ## 5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile. 
 ## 6. Halaman [Wikipedia - XP](https://en.wikipedia.org/wiki/Extreme_programming) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile.
