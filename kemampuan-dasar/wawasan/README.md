@@ -54,10 +54,10 @@ Kriteria yang dapat digunakan sebagai acuan dalam merekayasa perangkat lunak:
 Agile Development Methods adalah sekelompok metodologi pengembangan perangkat lunak yang didasarkan pada prinsip-prinsip yang sama atau pengembangan sistem jangka pendek yang memerlukan adaptasi cepat dari pengembang terhadap perubahan dalam bentuk apapun. Agile development methods merupakan salah satu dari [Metodologi pengembangan perangkat lunak](https://id.wikipedia.org/wiki/Metodologi_pengembangan_perangkat_lunak) yang digunakan dalam pengembangan perangkat lunak. Agile memiliki pengertian bersifat cepat, ringan, bebas bergerak, dan waspada. Sehingga saat membuat perangkat lunak dengan menggunakan agile development methods diperlukan inovasi dan responsibiliti yang baik antara tim pengembang dan klien agar kualitas dari perangkat lunak yang dihasilkan bagus dan kelincahan dari tim seimbang.
 
 Agile development methods terdefinisi dalam empat nilai, biasa di sebut Agile Alliance’s Manifesto, diantaranya:
-    1. Interaksi dan personel lebih penting daripada proses dan alat.
-    2. Perangkat lunak yang berfungsi lebih penting daripada dokumentasi yang lengkap.
-    3. Kolaborasi dengan klien lebih penting daripada negosiasi kontrak.
-    4. Respon terhadap perubahan lebih penting daripada mengikuti rencana.
+   1. Interaksi dan personel lebih penting daripada proses dan alat.
+   2. Perangkat lunak yang berfungsi lebih penting daripada dokumentasi yang lengkap.
+   3. Kolaborasi dengan klien lebih penting daripada negosiasi kontrak.
+   4. Respon terhadap perubahan lebih penting daripada mengikuti rencana.
 
 
 5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile. 
