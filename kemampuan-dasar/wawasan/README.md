@@ -27,6 +27,10 @@ Di bawah ini ada beberapa contoh macam perangkat lunak, yaitu:
 ## 2. Halaman [StackExchange tentang perbedaan informatics dengan computer science](https://cs.stackexchange.com/questions/81408/whats-the-difference-between-computer-science-and-informatics).
 ### Perbedaan antara Ilmu Komputer dan Informatika
  ### Ilmu Komputer
+ Ilmu komputer adalah studi tentang teori, eksperimen, dan teknik yang membentuk dasar untuk desain dan penggunaan komputer. Ini adalah pendekatan ilmiah dan praktis untuk komputasi dan aplikasinya dan studi sistematis kelayakan, struktur, ekspresi, dan mekanisasi dari prosedur metodis (atau algoritma) yang mendasari akuisisi, representasi, pemrosesan, penyimpanan, komunikasi, dan akses untuk informasi. Definisi alternatif, lebih ringkas dari ilmu komputer adalah studi tentang mengotomatisasi proses algoritme yang berskala.
+ 
+ ### Informatika
+ Informatika adalah cabang dari rekayasa informasi. Ini melibatkan praktik pengolahan informasi dan rekayasa sistem informasi, dan sebagai bidang akademik itu adalah bentuk ilmu informasi yang diterapkan. Dengan demikian, bidang informatika sangat luas dan mencakup banyak subspesialisasi, termasuk disiplin ilmu komputer, sistem informasi, teknologi informasi, dan statistik. Sejak munculnya komputer, individu dan organisasi semakin memproses informasi secara digital. Ini telah menyebabkan studi informatika dengan aspek komputasi, matematika, biologis, kognitif dan sosial, termasuk studi dampak sosial dari teknologi informasi.
 
 
 
