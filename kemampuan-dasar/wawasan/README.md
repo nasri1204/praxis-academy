@@ -60,5 +60,5 @@ Agile development methods terdefinisi dalam empat nilai, biasa di sebut Agile Al
    4. Respon terhadap perubahan lebih penting daripada mengikuti rencana.
 
 
-5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile. 
-6. Halaman [Wikipedia - XP](https://en.wikipedia.org/wiki/Extreme_programming) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile.
+## 5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile. 
+## 6. Halaman [Wikipedia - XP](https://en.wikipedia.org/wiki/Extreme_programming) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile.
