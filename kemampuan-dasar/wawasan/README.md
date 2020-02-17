@@ -4,7 +4,7 @@
 Materi dan Penjelasan
 ```
 
-1. Halaman [Wikipedia - Information Technology](https://en.wikipedia.org/wiki/Information_technology), serta komponen-komponen dari TI dengan penekanan lebih pada [software](https://en.wikipedia.org/wiki/Software).
+## 1. Halaman [Wikipedia - Information Technology](https://en.wikipedia.org/wiki/Information_technology), serta komponen-komponen dari TI dengan penekanan lebih pada [software](https://en.wikipedia.org/wiki/Software).
 ### Teknologi informasi
 
 Teknologi Informasi (TI), atau dalam bahasa Inggris dikenal dengan istilah Information technology (IT) adalah istilah umum untuk teknologi apa pun yang membantu manusia dalam membuat, mengubah, menyimpan, mengomunikasikan dan/atau menyebarkan informasi. TI menyatukan komputasi dan komunikasi berkecepatan tinggi untuk data, suara, dan video. Contoh dari Teknologi Informasi bukan hanya berupa komputer pribadi, tetapi juga telepon, TV, peralatan rumah tangga elektronik, dan peranti genggam modern (misalnya ponsel).
