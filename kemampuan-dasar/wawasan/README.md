@@ -32,6 +32,11 @@ Di bawah ini ada beberapa contoh macam perangkat lunak, yaitu:
  ### Informatika
  Informatika adalah cabang dari rekayasa informasi. Ini melibatkan praktik pengolahan informasi dan rekayasa sistem informasi, dan sebagai bidang akademik itu adalah bentuk ilmu informasi yang diterapkan. Dengan demikian, bidang informatika sangat luas dan mencakup banyak subspesialisasi, termasuk disiplin ilmu komputer, sistem informasi, teknologi informasi, dan statistik. Sejak munculnya komputer, individu dan organisasi semakin memproses informasi secara digital. Ini telah menyebabkan studi informatika dengan aspek komputasi, matematika, biologis, kognitif dan sosial, termasuk studi dampak sosial dari teknologi informasi.
  
+
+## 3. Halaman [Wikipedia - Software Development](https://en.wikipedia.org/wiki/Software_development) memberikan penjelasan umum tentang aktivitas, model, serta hal-hal lain yang terkait dengan *software development*. Penerapan dari *engineering* ke dalam aktivitas *software development* ini disebut dengan [Software Engineering](https://en.wikipedia.org/wiki/Software_engineering)
+### Proses pengembangan perangkat lunak
+Proses pengembangan perangkat lunak (Software development process) adalah suatu struktur yang diterapkan pada pengembangan suatu produk perangkat lunak yang bertujuan untuk mengembangkan sistem dan memberikan panduan yang bertujuan untuk menyukseskan proyek pengembangan sistem melalui tahap demi tahap. Proses ini memiliki beberapa model yang masing-masing menjelaskan pendekatan terhadap berbagai tugas atau aktivitas yang terjadi selama proses. Contoh model proses pengembangan perangkat lunak antara lain adalah proses iteratif, Extreme Programming, serta proses air terjun (waterfall).
+
 ### Rekayasa perangkat lunak
 Rekayasa Perangkat Lunak (RPL, atau dalam bahasa Inggris: Software Engineering atau SE) adalah satu bidang profesi yang mendalami cara-cara pengembangan perangkat lunak termasuk pembuatan, pemeliharaan, manajemen organisasi pengembangan perangkat lunak dan manajemen kualitas.
 IEEE Computer Society mendefinisikan rekayasa perangkat lunak sebagai penerapan suatu pendekatan yang sistematis, disiplin dan terkuantifikasi atas pengembangan, penggunaan dan pemeliharaan perangkat lunak, serta studi atas pendekatan-pendekatan ini, yaitu penerapan pendekatan engineering atas perangkat lunak. Rekayasa perangkat lunak adalah pengubahan perangkat lunak itu sendiri guna mengembangkan, memelihara, dan membangun kembali dengan menggunakan prinsip rekayasa untuk menghasilkan perangkat lunak yang dapat bekerja lebih efisien dan efektif untuk pengguna.
@@ -42,16 +47,18 @@ Kriteria yang dapat digunakan sebagai acuan dalam merekayasa perangkat lunak:
    3. Dapat mengikuti keinginan pengguna (Robust)
    4. Efektif dan efisien dalam menggunakan energi dan penggunaannya
    5. Dapat memenuhi kebutuhan yang diinginkan (Usability)
-
-
-
-
-
-
-## 3. Halaman [Wikipedia - Software Development](https://en.wikipedia.org/wiki/Software_development) memberikan penjelasan umum tentang aktivitas, model, serta hal-hal lain yang terkait dengan *software development*. Penerapan dari *engineering* ke dalam aktivitas *software development* ini disebut dengan [Software Engineering](https://en.wikipedia.org/wiki/Software_engineering)
-### Proses pengembangan perangkat lunak
-Proses pengembangan perangkat lunak (Software development process) adalah suatu struktur yang diterapkan pada pengembangan suatu produk perangkat lunak yang bertujuan untuk mengembangkan sistem dan memberikan panduan yang bertujuan untuk menyukseskan proyek pengembangan sistem melalui tahap demi tahap. Proses ini memiliki beberapa model yang masing-masing menjelaskan pendekatan terhadap berbagai tugas atau aktivitas yang terjadi selama proses. Contoh model proses pengembangan perangkat lunak antara lain adalah proses iteratif, Extreme Programming, serta proses air terjun (waterfall).
+   
 
 4. Halaman [Wikipedia - Agile Software Development](https://en.wikipedia.org/wiki/Agile_software_development) membahas hal yang lebih spesifik dari *software development*, yaitu salah satu model / metodologi yang digunakan untuk membangun software.
+### Agile Development Methods
+Agile Development Methods adalah sekelompok metodologi pengembangan perangkat lunak yang didasarkan pada prinsip-prinsip yang sama atau pengembangan sistem jangka pendek yang memerlukan adaptasi cepat dari pengembang terhadap perubahan dalam bentuk apapun. Agile development methods merupakan salah satu dari [Metodologi pengembangan perangkat lunak](https://id.wikipedia.org/wiki/Metodologi_pengembangan_perangkat_lunak) yang digunakan dalam pengembangan perangkat lunak. Agile memiliki pengertian bersifat cepat, ringan, bebas bergerak, dan waspada. Sehingga saat membuat perangkat lunak dengan menggunakan agile development methods diperlukan inovasi dan responsibiliti yang baik antara tim pengembang dan klien agar kualitas dari perangkat lunak yang dihasilkan bagus dan kelincahan dari tim seimbang.
+
+Agile development methods terdefinisi dalam empat nilai, biasa di sebut Agile Alliance’s Manifesto, diantaranya:
+    1. Interaksi dan personel lebih penting daripada proses dan alat.
+    2. Perangkat lunak yang berfungsi lebih penting daripada dokumentasi yang lengkap.
+    3. Kolaborasi dengan klien lebih penting daripada negosiasi kontrak.
+    4. Respon terhadap perubahan lebih penting daripada mengikuti rencana.
+
+
 5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile. 
 6. Halaman [Wikipedia - XP](https://en.wikipedia.org/wiki/Extreme_programming) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile.
