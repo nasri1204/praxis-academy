@@ -24,15 +24,13 @@ Di bawah ini ada beberapa contoh macam perangkat lunak, yaitu:
   * [Pengendali perangkat keras](https://id.wikipedia.org/wiki/Pemacu_peranti) (device driver) yaitu penghubung antara perangkat perangkat keras pembantu, dan komputer adalah software yang banyak dipakai di swalayan, dan juga sekolah, yaitu penggunaan barcode scanner pada aplikasi database lainnya.
 
 
+## 2. Halaman [StackExchange tentang perbedaan informatics dengan computer science](https://cs.stackexchange.com/questions/81408/whats-the-difference-between-computer-science-and-informatics).
+### Perbedaan antara Ilmu Komputer dan Informatika
+ ### Ilmu Komputer
 
 
 
 
-
-
-
-
-2. Halaman [StackExchange tentang perbedaan informatics dengan computer science](https://cs.stackexchange.com/questions/81408/whats-the-difference-between-computer-science-and-informatics).
 3. Halaman [Wikipedia - Software Development](https://en.wikipedia.org/wiki/Software_development) memberikan penjelasan umum tentang aktivitas, model, serta hal-hal lain yang terkait dengan *software development*. Dengan mempelajari bagian ini, siswa diharapkan memahami bahwa *software development* merupakan aktivitas yang kompleks dan memerlukan berbagai macam *roles* / peran. Penerapan dari *engineering* ke dalam aktivitas *software development* ini disebut dengan [Software Engineering](https://en.wikipedia.org/wiki/Software_engineering)
 4. Halaman [Wikipedia - Agile Software Development](https://en.wikipedia.org/wiki/Agile_software_development) membahas hal yang lebih spesifik dari *software development*, yaitu salah satu model / metodologi yang digunakan untuk membangun software.
 5. Halaman [Wikipedia - Scrum](https://en.wikipedia.org/wiki/Scrum_(software_development)) membahas tentang salah satu *process framework* yang termasuk dalam metodologi Agile. 
