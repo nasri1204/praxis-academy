@@ -21,7 +21,7 @@ Di bawah ini ada beberapa contoh macam perangkat lunak, yaitu:
   * Perangkat lunak aplikasi (application software) seperti pengolah kata, lembar tabel hitung, pemutar media, dan paket aplikasi   perkantoran seperti OpenOffice.org.
   * Sistem operasi (operating system) misalnya Linux dan Windows.
   * Perkakas pengembangan perangkat lunak (software development tool) seperti Kompilator untuk bahasa pemrograman tingkat tinggi seperti Pascal dan bahasa pemrograman tingkat rendah yaitu bahasa rakitan.
-  *Pengendali perangkat keras (device driver) yaitu penghubung antara perangkat perangkat keras pembantu, dan komputer adalah software yang banyak dipakai di swalayan, dan juga sekolah, yaitu penggunaan barcode scanner pada aplikasi database lainnya.
+  * Pengendali perangkat keras (device driver) yaitu penghubung antara perangkat perangkat keras pembantu, dan komputer adalah software yang banyak dipakai di swalayan, dan juga sekolah, yaitu penggunaan barcode scanner pada aplikasi database lainnya.
 
 
 
