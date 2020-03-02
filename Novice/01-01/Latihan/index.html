@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+    <link href="style/style.css" rel="stylesheet" type="text/css">
+
+    <title></title>
+  </head>
+  <body>
+    <h1></h1>
+      <img src="images/firefox.png" alt="firefox" style="width: 200px; height: 200px;">
+      <br>
+        <p> At Mozilla, we're global community of</p>
+          <ul>
+            <li>Technologists</li>
+            <li>Thinkers</li>
+            <li>Builders</li>
+          </ul>
+        <p>Working together to keep the Internet alive and accessible, so people worldwide can be infromed contributors
+          and creators of the Web. We belive this act human collaboration across an opne platform is essential to
+          individual growth and our collective future.
+        </p>
+        <p>Read the MozillaMainfesto to learn even more about the values and principles that guide the pursuit of our mission.</p>
+        <p><button>Change user</button></p>
+      <script src="scripts/main.js"></script>
+      <p id="demo"></p>
+
+      <!--Looping a triangle-->
+      <script>
+          for (var symbol = '#'; symbol.length < 7; symbol = symbol + '#'){
+            console.log(symbol);
+            }
+      </script>
+
+      <!--FizzBuzz-->
+      <script>
+        for (i=1; i<=100; i++) {
+          if ( !(i%5) && !(i%3) ) {
+              console.log('FizzBuzz');
+          } else if ( !(i%5) && (i%3)) {
+              console.log('Buzz');
+          } else if ( !(i%3) ) {
+              console.log('Fizz');
+          } else {
+              console.log(i);
+          }
+      }
+      </script>
+
+      <!--Chessboard-->
+      <script>
+            var size = 8;
+            var block = '#';
+            var space = ' ';
+
+            for (var i = 1; i <= size; i++) {
+            var line = '';
+
+            for (var y = 1; y <= size; y++){
+                if (i%2) {
+                    if (y%2) {
+                        line = line + space;
+                    } else {
+                        line = line + block;
+                    }
+                } else {
+                    if (y%2) {
+                        line = line + block;
+                    } else {
+                        line = line + space;
+                    }
+                }
+            }
+
+            console.log(line);
+            }
+    </script>
+        
+  </body>
+</html>
