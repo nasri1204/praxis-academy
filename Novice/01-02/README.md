@@ -71,3 +71,50 @@ Bergantung pada jenis kesalahan, Anda mungkin dapat menggunakan properti nama da
 Properti name menyediakan kelas umum Error (seperti DOMException atau Error), sementara pesan umumnya memberikan pesan yang lebih ringkas daripada yang didapat dengan mengonversi objek kesalahan ke string.
 
 Jika Anda melempar pengecualian Anda sendiri, untuk mengambil keuntungan dari properti ini (seperti jika blok tangkapan Anda tidak membedakan antara pengecualian Anda sendiri dan yang sistem), Anda dapat menggunakan pembangun kesalahan.
+
+## Loops and iteration
+### for statement
+A for loop berulang sampai kondisi yang ditentukan bernilai false. JavaScript untuk loop mirip dengan Java dan C untuk loop.
+
+Ketika a for loop dijalankan, berikut ini terjadi:
+
+1. Ekspresi inisialisasi initialExpression, jika ada, dieksekusi. Ekspresi ini biasanya menginisialisasi satu atau lebih penghitung loop, tetapi sintaks memungkinkan ekspresi tingkat kerumitan. Ekspresi ini juga dapat mendeklarasikan variabel.
+2. Ekspresi kondisi dievaluasi. Jika nilai kondisi benar, pernyataan loop dijalankan. Jika nilai kondisi salah, loop for berakhir. (Jika ekspresi kondisi dihilangkan seluruhnya, kondisi tersebut dianggap benar.)
+3. Pernyataan dieksekusi. Untuk menjalankan beberapa pernyataan, gunakan pernyataan blokir ({...}) untuk mengelompokkan pernyataan tersebut.
+4. Jika ada, pembaruan ekspresi incrementExpression dieksekusi.
+5. Kontrol kembali ke Langkah 2.
+
+### do...while statement
+Pernyataan do ... while berulang hingga kondisi yang ditentukan bernilai false.
+pernyataan selalu dieksekusi sekali sebelum kondisinya diperiksa. (Untuk menjalankan beberapa pernyataan, gunakan pernyataan blokir ({...}) untuk mengelompokkan pernyataan-pernyataan itu.)
+
+Jika kondisi benar, pernyataan dieksekusi lagi. Di akhir setiap eksekusi, kondisi diperiksa. Ketika kondisinya salah, eksekusi berhenti, dan kontrol beralih ke pernyataan berikut do ... while.
+
+### while statement
+Pernyataan sementara mengeksekusi pernyataannya selama kondisi tertentu bernilai true.
+Jika kondisi menjadi salah, pernyataan dalam loop berhenti dijalankan dan kontrol beralih ke pernyataan setelah loop.
+
+Tes kondisi terjadi sebelum pernyataan dalam loop dijalankan. Jika kondisi mengembalikan true, pernyataan dieksekusi dan kondisi diuji lagi. Jika kondisi mengembalikan false, eksekusi berhenti, dan kontrol dilewatkan ke pernyataan berikut sementara.
+
+Untuk menjalankan beberapa pernyataan, gunakan pernyataan blokir ({...}) untuk mengelompokkan pernyataan tersebut.
+
+### labeled statement
+Label memberikan pernyataan dengan pengidentifikasi yang memungkinkan Anda merujuknya di tempat lain di program Anda. Misalnya, Anda dapat menggunakan label untuk mengidentifikasi loop, dan kemudian menggunakan pernyataan break atau melanjutkan untuk menunjukkan apakah suatu program harus mengganggu loop atau melanjutkan eksekusi.
+
+### break statement
+Gunakan pernyataan break untuk mengakhiri loop, switch, atau dalam hubungannya dengan pernyataan berlabel.
+
+* Ketika Anda menggunakan jeda tanpa label, itu mengakhiri terdalam melampirkan sementara, lakukan-sementara, untuk, atau segera beralih dan mentransfer kontrol ke pernyataan berikut.
+* Saat Anda menggunakan break dengan label, itu mengakhiri pernyataan berlabel yang ditentukan.
+
+### continue statement
+Pernyataan melanjutkan dapat digunakan untuk memulai kembali pernyataan while, do-while, for, atau label.
+
+* Ketika Anda menggunakan melanjutkan tanpa label, iterasi ini mengakhiri iterasi terdalam yang terlampir saat, do-while, atau untuk pernyataan dan melanjutkan eksekusi loop dengan iterasi berikutnya. Berbeda dengan pernyataan break, lanjutkan tidak menghentikan eksekusi loop sepenuhnya. Dalam loop sementara, itu melompat kembali ke kondisi. Dalam for for, itu melompat ke ekspresi-kenaikan.
+* Saat Anda menggunakan melanjutkan dengan label, itu berlaku untuk pernyataan perulangan yang diidentifikasi dengan label itu.
+
+### for...in statement
+The for ... dalam statement iterates variabel tertentu atas semua properti enumerable dari suatu objek. Untuk setiap properti yang berbeda, JavaScript mengeksekusi pernyataan yang ditentukan.
+
+### for...of statement
+The for ... of statement menciptakan loop Iterating pada objek yang dapat di-iterable (termasuk Array, Map, Set, objek argumen dan sebagainya), menggunakan pengait iterasi kustom dengan pernyataan yang akan dieksekusi untuk nilai setiap properti yang berbeda.
