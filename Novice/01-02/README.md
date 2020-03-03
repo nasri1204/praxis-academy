@@ -8,19 +8,6 @@
 
 ## Ringkasan :
 ## Control flow and error handling
-
-## Konstruksi Dasar JavaScript
-  1. Pengandali alur:
-      * if .. else
-      * switch
-      * try ... catch ... throw
-  2. Iterasi dan looping
-      * for
-      * while
-      * do ... while
-      * break/continue
-      * for ... in
-      * for ... of
       
 ### Block statement
 Pernyataan paling dasar adalah Block statement, yang digunakan untuk mengelompokkan pernyataan. Blok dibatasi oleh sepasang kurung kurawal.
@@ -120,3 +107,14 @@ The for ... dalam statement iterates variabel tertentu atas semua properti enume
 The for ... of statement menciptakan loop Iterating pada objek yang dapat di-iterable (termasuk Array, Map, Set, objek argumen dan sebagainya), menggunakan pengait iterasi kustom dengan pernyataan yang akan dieksekusi untuk nilai setiap properti yang berbeda.
 
 ## Penjelasaan tentang isi repo :
+  1. Pengandali alur:
+      * if .. else
+      * switch
+      * try ... catch ... throw
+  2. Iterasi dan looping
+      * for
+      * while
+      * do ... while
+      * break/continue
+      * for ... in
+      * for ... of
