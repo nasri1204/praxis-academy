@@ -118,3 +118,5 @@ The for ... dalam statement iterates variabel tertentu atas semua properti enume
 
 ### for...of statement
 The for ... of statement menciptakan loop Iterating pada objek yang dapat di-iterable (termasuk Array, Map, Set, objek argumen dan sebagainya), menggunakan pengait iterasi kustom dengan pernyataan yang akan dieksekusi untuk nilai setiap properti yang berbeda.
+
+## Penjelasaan tentang isi repo :
