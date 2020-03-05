@@ -6,36 +6,55 @@
 
 ## Tanggal    : 05 Maret 2020
 
-## Ringkasan Materi : 
-## Strings
+## Ringkasan Materi :
+## Text formatting
+### Strings
 Jenis String JavaScript digunakan untuk merepresentasikan data tekstual. Ini adalah satu set "elemen" dari nilai integer 16-bit unsigned (unit kode UTF-16). Setiap elemen dalam String menempati posisi dalam String. Elemen pertama adalah pada indeks 0, selanjutnya pada indeks 1, dan seterusnya. Panjang suatu String adalah jumlah elemen di dalamnya. Anda dapat membuat string menggunakan string literal atau objek string
 
-## String literals
-### membuat string sederhana menggunakan kutipan tunggal atau ganda: 'foo' atau "bar"
+### String literals
+Membuat string sederhana menggunakan kutipan tunggal atau ganda: 'foo' atau "bar"
 
-## String objects
-### Objek String adalah pembungkus di sekitar tipe data primitif string
+### String objects
+Objek String adalah pembungkus di sekitar tipe data primitif string. Anda dapat memanggil salah satu metode objek String pada nilai literal string — JavaScript secara otomatis mengubah string literal menjadi objek String sementara, memanggil metode tersebut, lalu membuang objek String sementara. Anda juga bisa menggunakan properti String.length dengan string literal.
 
-## Multi-line template literals
-### literal string yang memungkinkan ekspresi tersemat. Anda dapat menggunakan fitur multi-line string dan interpolasi string.
+### Multi-line template literals
+Literal templat adalah literal string yang memungkinkan ekspresi tersemat. Anda dapat menggunakan fitur multi-line string dan interpolasi string.
 
-## Internationalization
-### namespace untuk ECMAScript Internationalisasi API, yang menyediakan perbandingan string sensitif bahasa, pemformatan angka, dan pemformatan tanggal dan waktu. Konstruktor untuk objek Collator, NumberFormat, dan DateTimeFormat adalah properti dari objek Intl.
+Literal templat terlampir oleh tanda centang-kembali ('') (aksen kubur) alih-alih tanda kutip ganda atau tunggal. Literal templat dapat berisi tempat penampung. Ini ditunjukkan oleh tanda Dollar dan kurung kurawal ($ {ekspresi}).
 
-## Date and time formatting Objek
-### Date Time Format berguna untuk memformat tanggal dan waktu. Berikut ini format tanggal untuk bahasa Inggris seperti yang digunakan di Amerika Serikat. (Hasilnya berbeda di zona waktu lain.)
+### Internationalization
+Namespace untuk ECMAScript Internationalisasi API, yang menyediakan perbandingan string sensitif bahasa, pemformatan angka, dan pemformatan tanggal dan waktu. Konstruktor untuk objek Collator, NumberFormat, dan DateTimeFormat adalah properti dari objek Intl.
 
-## Number formatting 
-### Objek NumberFormat berguna untuk memformat angka, misalnya mata uang
+### Date and time formatting Objek
+Date Time Format berguna untuk memformat tanggal dan waktu. Berikut ini format tanggal untuk bahasa Inggris seperti yang digunakan di Amerika Serikat. (Hasilnya berbeda di zona waktu lain.)
 
-## Collation
-### Objek Collator berguna untuk membandingkan dan menyortir string.
+### Number formatting 
+Objek NumberFormat berguna untuk memformat angka, misalnya mata uang
 
-## Creating a regular expression 
-### membangun ekspresi reguler dalam salah satu dari dua cara yaitu Menggunakan literal ekspresi reguler, yang terdiri dari pola tertutup di antara garis miring Atau memanggil fungsi konstruktor objek RegExp.
+### Collation
+Objek Collator berguna untuk membandingkan dan menyortir string.
 
-## Writing a regular expression pattern
-### Pola ekspresi reguler terdiri dari karakter sederhana, seperti / abc /, atau kombinasi karakter sederhana dan khusus, seperti / ab * c / atau / Bab (\ d +) \. \ D * /. Contoh terakhir termasuk tanda kurung, yang digunakan sebagai perangkat memori. Kecocokan yang dibuat dengan bagian dari pola ini diingat untuk digunakan nanti, seperti dijelaskan dalam Menggunakan grup.
+### Creating a regular expression 
+Anda membangun ekspresi reguler dalam salah satu dari dua cara:
+
+Menggunakan literal ekspresi reguler, yang terdiri dari pola terlampir di antara garis miring, sebagai berikut:
+```
+let re = /ab+c/;
+```
+
+Literal ekspresi reguler menyediakan kompilasi ekspresi reguler ketika skrip dimuat. Jika ekspresi reguler tetap konstan, menggunakan ini dapat meningkatkan kinerja.
+
+Atau memanggil fungsi konstruktor objek RegExp, sebagai berikut:
+
+```
+let re = new RegExp('ab+c');
+```
+
+Menggunakan fungsi konstruktor menyediakan kompilasi runtime dari ekspresi reguler. Gunakan fungsi konstruktor ketika Anda tahu pola ekspresi reguler akan berubah, atau Anda tidak tahu pola dan mendapatkannya dari sumber lain, seperti input pengguna.
+
+## Regular expressions
+### Writing a regular expression pattern
+Pola ekspresi reguler terdiri dari karakter sederhana, seperti / abc /, atau kombinasi karakter sederhana dan khusus, seperti / ab * c / atau / Bab (\ d +) \. \ D * /. Contoh terakhir termasuk tanda kurung, yang digunakan sebagai perangkat memori. Kecocokan yang dibuat dengan bagian dari pola ini diingat untuk digunakan nanti, seperti dijelaskan dalam Menggunakan grup.
 
 ## Using simple patterns
 ### Pola-pola sederhana terdiri dari karakter-karakter yang ingin Anda temukan kecocokan langsung. Sebagai contoh, pola / abc / cocok dengan kombinasi karakter dalam string hanya ketika urutan yang tepat "abc" terjadi (semua karakter bersama dan dalam urutan itu) Pertandingan seperti itu akan berhasil dalam string "Hai, apakah Anda tahu abc Anda?" dan "Desain pesawat terbaru berevolusi dari slabcraft." Dalam kedua kasus, pertandingan dengan substring "abc". Tidak ada kecocokan dalam string "Grab kepiting" karena sementara itu berisi substring "ab c", itu tidak mengandung substring yang tepat "abc".
