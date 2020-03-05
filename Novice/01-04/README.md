@@ -2,7 +2,7 @@
 
 ## Hari Ke 4  : String dan Regular Expression
 
-## Oleh       : Dian Pertiwi
+## Oleh       : Nasri
 
 ## Tanggal    : 05 Maret 2020
 
