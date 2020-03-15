@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        let mhs = [{
+            nim: 1700016065,
+            nama: 'Nasri'
+        }, {
+            nim: 1700016065,
+            nama: 'Nasri lagi'
+        }, ];
+
+        function getNow() {
+            d = new Date();
+            return d.toTimeString();
+        }
+
+        function tambahSiswa(siswa, callback) {
+            setTimeout(function() {
+                mhs.push(siswa);
+                console.log('Selesai push ', getNow());
+                callback();
+
+            }, 5000);
+        }
+
+        function getKlas() {
+            console.log('mhs dalam getClass (baris 36):', mhs);
+            //return mhs;
+        }
+
+        console.log('Sebelum execute ', getNow());
+        console.log('mhs (baris 41):', mhs);
+        tambahSiswa({
+            nim: 1700016065,
+            nama: 'Nasri teros'
+        }, getKlas);
+        console.log('Sesudah execute ', getNow());
+        console.log('mhs (baris 44):', mhs);
+    </script>
+</body>
+
+</html>
