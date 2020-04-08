@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // define a mixin object
+        var myMixin = {
+        created: function () {
+            this.hello()
+        },
+        methods: {
+            hello: function () {
+            console.log('hello from mixin!')
+            }
+        }
+        }
+
+        // define a component that uses this mixin
+        var Component = Vue.extend({
+        mixins: [myMixin]
+        })
+
+        var component = new Component() // => "hello from mixin!"
+    </script>
+</body>
+</html>

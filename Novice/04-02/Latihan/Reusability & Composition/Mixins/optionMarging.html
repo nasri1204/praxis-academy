@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // var mixin = {
+        // data: function () {
+        //     return {
+        //     message: 'hello',
+        //     foo: 'abc'
+        //     }
+        // }
+        // }
+
+        // new Vue({
+        // mixins: [mixin],
+        // data: function () {
+        //     return {
+        //     message: 'goodbye',
+        //     bar: 'def'
+        //     }
+        // },
+        // created: function () {
+        //     console.log(this.$data)
+        //     // => { message: "goodbye", foo: "abc", bar: "def" }
+        // }
+        // })
+
+        // var mixin = {
+        // created: function () {
+        //     console.log('mixin hook called')
+        // }
+        // }
+
+        // new Vue({
+        // mixins: [mixin],
+        // created: function () {
+        //     console.log('component hook called')
+        // }
+        // })
+
+        // => "mixin hook called"
+        // => "component hook called"
+
+        var mixin = {
+        methods: {
+            foo: function () {
+            console.log('foo')
+            },
+            conflicting: function () {
+            console.log('from mixin')
+            }
+        }
+        }
+
+        var vm = new Vue({
+        mixins: [mixin],
+        methods: {
+            bar: function () {
+            console.log('bar')
+            },
+            conflicting: function () {
+            console.log('from self')
+            }
+        }
+        })
+
+        vm.foo() // => "foo"
+        vm.bar() // => "bar"
+        vm.conflicting() // => "from self"
+    </script>
+</body>
+</html>
